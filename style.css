@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.lead {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+input#guessInput {
+    background: rgba(255, 255, 255, 0.8);
+    color: #000;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+button {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+button:hover {
+    background: #ffffff !important;
+    color: #2575fc !important;
+}
+
+#message {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
